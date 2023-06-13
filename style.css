@@ -412,37 +412,6 @@ i.bi-chevron-double-right{
 .work__img .card__data a:hover{ 
     background: linear-gradient(-45deg, #777,#222);
 }
-/* body.pop-up::-webkit-scrollbar{
-    width: 0;
-}
-section.pop__up{
-    position: sticky;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background: #fff;
-    z-index: 99999;
-}
-section.pop__up div{
-    width: 350px;
-    height: 200px;
-    background: #333;
-    display: flex;
-    background: red;
-}
-section.pop__up div .pop__up__img{
-    width: 30%;
-    height: 100%;
-    padding: 10px;
-    object-fit: cover;
-}
-section.pop__up div .details{
-    width: 70%;
-} */
 
 
 /* Contact */
@@ -582,64 +551,4 @@ section.pop__up div .details{
     .home__img{
         right: 10%;
     }
-}
-
-
-
-
-.submit__pop__up{
-    position: sticky;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    min-height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    z-index: 999999;
-    background: #fff;
-    backdrop-filter: blur(20px);
-    display: none;
-}
-body.pop__up__open .submit__pop__up{
-    display: flex;
-}
-.submit__pop__up .data{
-    width: fit-content;
-    height: fit-content;
-    /* backdrop-filter: blur(20px); */
-    box-shadow: 0 0 10px rgba(0,0,0,.15);
-    border-radius: 5px;
-}
-.submit__pop__up .data .btn{
-    width: 100%;
-    display: flex;
-    justify-content: flex-end;
-}
-.submit__pop__up .data .btn i{
-    padding: 0.3rem 0.5rem;
-    cursor: pointer;
-}
-.submit__pop__up .data .inner__data{
-    padding: 1rem 2rem;
-}
-.submit__pop__up .data .inner__data h2{
-    width: 100%;
-    margin-bottom: 1rem;
-}
-.submit__pop__up .data .inner__data p{
-    display: flex;
-    color: #555;
-}
-.submit__pop__up .data .inner__data p.last__para{
-    margin-bottom: 1rem;
-}
-.submit__pop__up .data .inner__data p i{
-    font-size: 0.8rem;
-    margin-right: 0.5rem;
-    margin-top: 0.12rem;
-}
-.submit__pop__up .data .inner__data a{
-    color: maroon;
 }
