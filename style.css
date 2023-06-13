@@ -390,7 +390,7 @@ img{
     align-items: flex-start;
     font-size: 0.92rem;
 }
-.work__img .card__data p i{
+i.bi-chevron-double-right{
     font-size: 0.8rem;
     margin-right: 0.3rem;
     margin-top: 0.05rem;
