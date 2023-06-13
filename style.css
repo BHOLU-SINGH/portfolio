@@ -257,6 +257,18 @@ img{
 .about__subtitle{
     margin-bottom: var(--mb-2);
 }
+
+.about__text{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.about__text i{
+    font-size: 0.8rem;
+    margin-right: 0.3rem;
+    margin-top: 0.12rem;
+}
+
 .about__img{
     justify-self: center;
 }
@@ -390,7 +402,7 @@ img{
     align-items: flex-start;
     font-size: 0.92rem;
 }
-i.bi-chevron-double-right{
+.work__img .card__data p i.bi-chevron-double-right{
     font-size: 0.8rem;
     margin-right: 0.3rem;
     margin-top: 0.05rem;
